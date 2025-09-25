@@ -1,0 +1,10 @@
+docopt==0.6.2
+libevdev==0.12
+prompt_toolkit==3.0.52
+pyflakes==3.4.0
+pyglet==2.1.9
+Pygments==2.19.2
+python-uinput==1.0.1
+six==1.17.0
+vgamepad==0.1.0
+wcwidth==0.2.14
