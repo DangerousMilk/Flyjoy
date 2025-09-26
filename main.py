@@ -1,6 +1,7 @@
 from enum import Enum
 
 import pyglet
+import argparse
 
 import tomllib
 import sys
@@ -181,6 +182,16 @@ class TXJoystickConverter:
 
 
 if __name__ == "__main__":
-    converter = TXJoystickConverter(verbose=False)
+    parser = argparse.ArgumentParser(description="Flyjoy")
+    parser.add_argument(
+        "--verbose", "-v",
+        action="store_true",
+        help="print joystick inputs"
+    )
+    args = parser.parse_args()
+
+    converter = TXJoystickConverter(args.verbose)
+
+    # Loop
     pyglet.clock.schedule_interval(converter.update, 1/30)
     pyglet.app.run()
