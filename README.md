@@ -1,3 +1,4 @@
+```
  _______  ___      __   __      ___  _______  __   __ 
 |       ||   |    |  | |  |    |   ||       ||  | |  |
 |    ___||   |    |  |_|  |    |   ||   _   ||  |_|  |
@@ -5,5 +6,6 @@
 |    ___||   |___ |_     _| ___|   ||  |_|  ||_     _|
 |   |    |       |  |   |  |       ||       |  |   |  
 |___|    |_______|  |___|  |_______||_______|  |___|  
-
-Convert TX input into controller input.
+```
+## Flyjoy
+Convert your TX inputs into controller inputs recognizable by any game.
