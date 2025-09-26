@@ -1,0 +1,42 @@
+[joystick]
+joystick_index = 0
+
+# axis:
+# transmitter axis
+# string, TX axis name
+
+# inverted:
+# Invert transmitter input. 
+# bool, true / false
+
+# expo:
+# Exponent
+# float, 0-1
+
+# sensitivity:
+# Input sensitivity
+# float
+
+[axis.x]
+axis = "x" 
+inverted = false 
+expo = 1 
+sensitivity = 1.5
+
+[axis.y]
+axis = "z"
+inverted = false 
+expo = 1 
+sensitivity = 1.5
+
+[axis.rx]
+axis = "ry"
+inverted = false 
+expo = 1 
+sensitivity = 1.5
+
+[axis.ry]
+axis = "y"
+inverted = true 
+expo = 1 
+sensitivity = 1.5
